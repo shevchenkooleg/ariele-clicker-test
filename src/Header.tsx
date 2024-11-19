@@ -15,8 +15,12 @@ const Header = () => {
                     <div className="offer__description">
                         Здесь Вы можете оформить заявку на покупку наших изделий.
                     </div>
-                    <a className="offer__button" target='_blank' rel='noreferrer'
-                       href="https://f-ariel.ru/dokumenty/instrukciya_order.pdf">
+                    <a
+                        className="offer__button"
+                        target='_blank'
+                        rel='noreferrer'
+                        href="https://f-ariel.ru/dokumenty/instrukciya_order.pdf"
+                    >
                         Как заказать?
                     </a>
                 </div>
