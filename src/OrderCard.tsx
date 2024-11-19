@@ -30,7 +30,11 @@ const OrderCard = (props: OrderCardProps) => {
                             <img src="https://f-ariel.ru/images/zmeya_doktor.png" alt='Шар кракле "Змейка Доктор"'
                                  style={{width: '500px'}}/>
                         </div>
-                        <h2 className="product__name">Шар кракле "Змейка Доктор"</h2>
+                        <h2
+                            className="product__name"
+                        >
+                            Шар кракле "Змейка Доктор"
+                        </h2>
                         <p className="product__description">Арт. 263, 100 мм.</p>
                         <p className="product__price">6&nbsp;500 ₽</p>
                         <button
