@@ -9,7 +9,9 @@ const Header = () => {
                 <div className="message hidden"></div>
                 <div className="message-remove hidden"></div>
                 <div className="container">
-                    <h1 className="offer__title">
+                    <h1
+                        className="offer__title"
+                    >
                         Стеклянные елочные украшения фабрики "Ариель"
                     </h1>
                     <div
