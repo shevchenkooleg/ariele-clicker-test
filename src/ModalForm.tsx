@@ -49,9 +49,20 @@ const ModalForm = (props: ModalFormProps) => {
                 />
                     <span
                     className="error-msg" id="phone-error"></span></div>
-                <div className="form-group"><label>Email</label> <input placeholder="example@mail.ru" name="email"
-                                                                        id="email" onChange={(e)=>setEmail(e.currentTarget.value)}/><span className="error-msg"
-                                                                                          id="email-error"></span>
+                <div className="form-group">
+                    <label>
+                        Email
+                    </label>
+                    <input
+                        placeholder="example@mail.ru"
+                        name="email"
+                        id="email"
+                        onChange={(e)=>setEmail(e.currentTarget.value)}
+                    />
+                    <span
+                        className="error-msg"
+                        id="email-error">
+                    </span>
                 </div>
                 <div className="form-group"><label>Адрес доставки</label> <textarea name="formComment"
                                                                                     placeholder="Адрес отделения СДЭК / Город, улица, дома, квартира / Самовывоз"
