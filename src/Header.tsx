@@ -12,7 +12,9 @@ const Header = () => {
                     <h1 className="offer__title">
                         Стеклянные елочные украшения фабрики "Ариель"
                     </h1>
-                    <div className="offer__description">
+                    <div
+                        className="offer__description"
+                    >
                         Здесь Вы можете оформить заявку на покупку наших изделий.
                     </div>
                     <a
