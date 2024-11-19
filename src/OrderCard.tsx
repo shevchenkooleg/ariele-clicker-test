@@ -43,7 +43,12 @@ const OrderCard = (props: OrderCardProps) => {
                         </button>
                     </div>
                 </div>
-                <div className="products__loader loading" style={{display: 'none'}}>Загружаем список товаров...</div>
+                <div
+                    className="products__loader loading"
+                    style={{display: 'none'}}
+                >
+                    Загружаем список товаров...
+                </div>
                 <button
                     onClick={onOpenModalBtnClick}
                     disabled={!addItem}
