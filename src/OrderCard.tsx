@@ -33,11 +33,14 @@ const OrderCard = (props: OrderCardProps) => {
                         <h2 className="product__name">Шар кракле "Змейка Доктор"</h2>
                         <p className="product__description">Арт. 263, 100 мм.</p>
                         <p className="product__price">6&nbsp;500 ₽</p>
-                        <button className="add-to-cart product--disabled"
-                                data-name="Шар кракле &quot;Змейка Доктор&quot;" data-id="128"
-                                data-description="Арт. 263, 100 мм." data-price="6500"
-                                data-img="https://f-ariel.ru/images/zmeya_doktor.png"
-                                onClick={onAddToCartBtnClick}
+                        <button
+                            className="add-to-cart product--disabled"
+                            data-name="Шар кракле &quot;Змейка Доктор&quot;"
+                            data-id="128"
+                            data-description="Арт. 263, 100 мм."
+                            data-price="6500"
+                            data-img="https://f-ariel.ru/images/zmeya_doktor.png"
+                            onClick={onAddToCartBtnClick}
                         >
                             Добавить в корзину
                         </button>
