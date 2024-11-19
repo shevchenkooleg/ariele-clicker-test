@@ -10,15 +10,12 @@ function App() {
 const [showModal, setShowModal] = useState(false)
 
 
-
   return (
       <>
           <Header/>
           <OrderCard setShowModal={setShowModal} />
           <Footer/>
-          <OrderForm
-              showModal={showModal}
-          />
+          <OrderForm showModal={showModal} />
       </>
   );
 }
