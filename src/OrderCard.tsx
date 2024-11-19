@@ -23,7 +23,11 @@ const OrderCard = (props: OrderCardProps) => {
     return (
         <div className="products">
             <div className="container">
-                <h2 className="products__title">Каталог</h2>
+                <h2
+                    className="products__title"
+                >
+                    Каталог
+                </h2>
                 <div className="products__wrapper" id="products__wrapper">
                     <div className="product">
                         <div className="product__image">
