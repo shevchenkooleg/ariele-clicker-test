@@ -17,7 +17,12 @@ const OrderForm = (props: OrderFormProps) => {
 
     return (
         <div className="overlay">
-            {showModal && <ModalForm setShowAcceptModal={setShowAcceptModal} setShowErrorModal={setShowErrorModal}/>}
+            {showModal &&
+                <ModalForm
+                    setShowAcceptModal={setShowAcceptModal}
+                    setShowErrorModal={setShowErrorModal}
+                />
+            }
             {showAcceptModal && <ModalAccept/>}
             {showErrorModal && <ModalError/>}
         </div>
