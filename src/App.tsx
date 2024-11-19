@@ -18,7 +18,9 @@ const [showModal, setShowModal] = useState(false)
               setShowModal={setShowModal}
           />
           <Footer/>
-          <OrderForm showModal={showModal}/>
+          <OrderForm
+              showModal={showModal}
+          />
       </>
   );
 }
