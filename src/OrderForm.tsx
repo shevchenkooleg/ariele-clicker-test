@@ -14,7 +14,6 @@ const OrderForm = (props: OrderFormProps) => {
     const [showAcceptModal, setShowAcceptModal] = useState(false)
     const [showErrorModal, setShowErrorModal] = useState(false)
 
-
     return (
         <div className="overlay">
             {showModal &&
