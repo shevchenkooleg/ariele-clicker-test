@@ -1,6 +1,6 @@
 {
   "name": "ariel-clicker-test-app",
-  "version": "3.2.10",
+  "version": "3.2.11",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
