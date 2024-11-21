@@ -1,18 +1,16 @@
 import { cy, it, describe } from 'local-cypress'
-import {Simulate} from "react-dom/test-utils";
-import submit = Simulate.submit;
 
 const credentialData1 = {
     firstName: 'Олег',
     lastName: 'Шевченко',
-    phone: '+79382946454',
+    phone: '79382946454',
     email: 'orion20041987@gmail.com',
     postAddress: 'СДЭК, г.Сочи, ул.Макаренко 34/18',
 }
 const credentialData2 = {
     firstName: 'Валентина',
     lastName: 'Федорова',
-    phone: '+79184001186',
+    phone: '79184001186',
     email: 'froska85@yandex.ru',
     postAddress: 'СДЭК, г.Сочи, ул.Макаренко 34/18',
 }
