@@ -10,7 +10,6 @@ interface OrderFormProps {
 const OrderForm = (props: OrderFormProps) => {
 
     const {showModal} = props
-
     const [showAcceptModal, setShowAcceptModal] = useState(false)
     const [showErrorModal, setShowErrorModal] = useState(false)
 
