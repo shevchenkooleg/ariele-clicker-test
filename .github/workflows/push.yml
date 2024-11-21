@@ -28,11 +28,6 @@ jobs:
           rc-wording: 'RELEASE,alpha'      # defaulting to a patch bump.
         env:
           GITHUB_TOKEN: ${{ secrets.MERGE_TOKEN }}
-
-#      - name: 'Push changes to main'
-#        run: git push https://${{ secrets.MERGE_TOKEN }}@github.com/shevchenkooleg/ariele-clicker-test.git HEAD:master --force
-
-
       - name: 'cat package.json'
         run: cat ./package.json
       - name: 'Output Step'
